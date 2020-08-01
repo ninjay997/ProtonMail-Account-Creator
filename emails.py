@@ -20,6 +20,7 @@ clear = lambda: os.system('clear')
 clear()
 i = 0
 collector = create_collector('my-collector', 'https')
+options = webdriver.ChromeOptions()
 
 print ('\033[31m' + """\
     ____             __              __  ___      _ __
